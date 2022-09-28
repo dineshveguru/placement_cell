@@ -1,0 +1,22 @@
+Options -indexes
+
+ErrorDocument 404 http://localhost/my_project/student/error
+ErrorDocument 403 http://localhost/my_project/student/error
+
+RewriteEngine On
+
+RewriteRule ^notifications notify.php [NC,L]
+RewriteRule ^leaderboard leaderboard.php [NC,L]
+RewriteRule ^profile profile.php [NC,L]
+RewriteRule ^dashboard dashboard.php [NC,L]
+RewriteRule ^companies companies.php [NC,L]
+RewriteRule ^news news.php [NC,L]
+RewriteRule ^privacy-policy privacy-policy.php [NC,L]
+RewriteRule ^terms-of-service terms-of-service.php [NC,L]
+RewriteRule ^error page-not-found.php [NC,L]
+RewriteRule ^settings settings.php [NC,L]
+
+
+RewriteRule ^user-profile/([0-9a-zA-Z_+-@&]+)$ user-profile.php?user=$1
+RewriteRule ^domain/([0-9a-zA-Z_+-@&]+)$ domain.php?language=$1
+RewriteRule ^challenges/([0-9a-zA-Z_+-@&]+)$ challenges.php?program=$1
