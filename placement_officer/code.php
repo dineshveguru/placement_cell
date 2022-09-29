@@ -32,6 +32,12 @@ if(isset($_POST['pl_officer_login']))
                         header('Location:index.php');
                     }
                 }
+                else
+                    {
+                        $_SESSION['status']="Incorrect Password Entered. Please Try Again";
+                        header('Location:index.php');
+                    }
+
                
             }
     
