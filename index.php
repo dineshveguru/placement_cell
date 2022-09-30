@@ -30,7 +30,7 @@
         <div class="navigation-card">
         <a class="navbar-brand text-brand" href="#">Career<span class="color-b">Club</span></a>
         <div class="options">
-        <a class="login-btn" href="https://jntuacep.ac.in/placement_cell/login.php" >Sign In</a>
+        <a class="login-btn" href="login.php" >Sign In</a>
         </div>
         </div>
     </div>
@@ -57,7 +57,7 @@
                     <p>Join and Start Building Your Profile and Showcase Your Skills. Let Companies Choose You.</p>
                         <br>
                         
-                        <a class="login-btn"  href="https://www.jntuacep.ac.in/placement_cell/login.php" >Sign In </a>
+                        <a class="login-btn"  href="login.php" >Sign In </a>
                     </div>
                 </div>
             </div>
