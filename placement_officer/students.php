@@ -27,7 +27,7 @@
         <div class="container-fluid d-flex justify-content-between px-5 pt-3">
               
           <input id="search" type="text"  class="form-control col-md-4 mb-3" placeholder="Search Student"> 
-              
+          <a href="export.php"><button class='btn-success'>EXPORT CSV</button></a>
        </div>
               
             
