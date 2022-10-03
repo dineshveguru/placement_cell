@@ -23,7 +23,7 @@ header('Content-Disposition:attachment;filename=students.xls');
                   <th>PHONE</th>
                   <th>DEPARTMENT</th>
                   <th>COLLEGE NAME</th>
-                 
+                  <th>SKILLS</th>
               </tr>
             </thead>
             
@@ -37,12 +37,12 @@ header('Content-Disposition:attachment;filename=students.xls');
               
               <tr>
                 <td style="display:none;"><?php echo $key;  ?></td>
-                <td class="text-uppercase"><?php echo $row['admno'];  ?></</td>
+                <td class="text-uppercase"><?php echo $row['admno'];  ?></td>
                 <td class="text-uppercase"><?php echo $row['name'];  ?></td>
                 <td><?php echo $row['email'];  ?></td>
                 <td><?php echo $row['phone'];  ?></td>
                 <td class="text-uppercase"><?php echo $row['dept'];  ?></td>
-                <td class="text-uppercase"><?php echo $row['clg'];  ?></</td>
+                <td class="text-uppercase"><?php echo $row['clg'];  ?></td>
                 <?php
                 $ref2="students/$key/skills";
                 $students_skills=$database->getReference($ref2)->getValue();
