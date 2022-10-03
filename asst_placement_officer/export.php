@@ -16,7 +16,7 @@ header('Content-Disposition:attachment;filename=students.xls');
             <table  class="table table-striped table-hover table-bordered" id="datatable" width="100%" cellspacing="0" >
               <thead style="background-color:#ffeded !important;">
                 <tr>
-                  <th style="display:none">KEY</th>
+                  
                   <th>ROLL NUMBER</th>
                   <th>NAME</th>
                   <th>EMAIL</th>
@@ -36,7 +36,7 @@ header('Content-Disposition:attachment;filename=students.xls');
             <tbody id="searchdata">
               
               <tr>
-                <td style="display:none;"><?php echo $key;  ?></td>
+                
                 <td class="text-uppercase"><?php echo $row['admno'];  ?></td>
                 <td class="text-uppercase"><?php echo $row['name'];  ?></td>
                 <td><?php echo $row['email'];  ?></td>
