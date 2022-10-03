@@ -20,7 +20,7 @@ $base_url = "https://jntuacep.ac.in/placement_cell/asst_placement_officer";
                 <a href="<?php echo $base_url; ?>/dashboard.php" ><i class="fa fa-tachometer" aria-hidden="true"></i> &nbsp;Dashboard</a>
                 </li>
                 <li class="<?= (basename($_SERVER['PHP_SELF'])=="students.php")?"active":""; ?>">
-                <a href="<?php echo $base_url; ?>/students.php" ><i class="fa fa-graduation-cap" aria-hidden="true"></i> &nbsp;Students</a>
+                <a href="students.php" ><i class="fa fa-graduation-cap" aria-hidden="true"></i> &nbsp;Students</a>
                 </li>
                 <li class="<?= (basename($_SERVER['PHP_SELF'])=="companies.php")?"active":""; ?>">
                 <a href="<?php echo $base_url; ?>/companies.php"><i class="fa fa-building-o" aria-hidden="true"></i> &nbsp;Companies</a>
